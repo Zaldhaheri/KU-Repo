@@ -9,7 +9,7 @@ if tap=="S":
 elif tap=="C":
     tap = "Clubs"
 elif tap=="D":
-    tap = "Diamonds"
+    tap = "Diamond"
 elif tap=="H":
     tap = "Hearts"
 else:
