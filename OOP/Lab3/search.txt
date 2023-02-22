@@ -1,0 +1,4 @@
+1111 Ahmed male undergrad 90 42
+2222 Noor female undergrad 88 44
+3333 Amal female undergrad 120 12
+6666 Hamad male undergrad 33 99
