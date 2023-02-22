@@ -6,7 +6,7 @@ public class Lab2_task1 {
 		String id = JOptionPane.showInputDialog("Enter ID: "); 
 		System.out.println(id);
 		
-		String pass = JOptionPane.showInputDialog("Enter Password: ");
+		String pass = JOptionPane.showInputDialog("Enter password: ");
 		System.out.println(pass);
 		
 		if (id.equals("1111") && pass.equals("student1234")) {
