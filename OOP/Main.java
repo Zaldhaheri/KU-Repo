@@ -5,7 +5,7 @@ public class Main{
     int x;
     String str;
     x = 45;
-    str = "Java programming";
+    str = "programming";
     System.out.println(x+"\n");
     System.out.println(str);
   }
