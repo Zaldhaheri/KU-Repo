@@ -1,5 +1,5 @@
 #include <stdio.h>
 
 int main(){
-    printf("%s", "man");
+    printf("%s", "if mortal then aristotle");
 }
