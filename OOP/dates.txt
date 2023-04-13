@@ -1,0 +1,5 @@
+Sukary 100
+Khalas 70
+Madjool 20
+Khalas 50
+Madjool 40
