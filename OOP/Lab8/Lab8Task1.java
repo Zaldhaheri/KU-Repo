@@ -5,9 +5,9 @@ import java.io.*;
 
 public class Lab8Task1 extends JFrame {
 
-    JLabel txt1,infoP,name1,name2,mail,phone,creditCard,dFrom,dTo,dDate,dReturn,bFees;
-    JButton b1,b2,b3,b4,b5;
-    JTextField tf1,tf2,tf3,tf4,tf5,tf6,tf7,tf8;
+    private JLabel txt1,infoP,name1,name2,mail,phone,creditCard,dFrom,dTo,dDate,dReturn,bFees;
+    private JButton b1,b2,b3,b4,b5;
+    private JTextField tf1,tf2,tf3,tf4,tf5,tf6,tf7,tf8;
     public static String to,from;
     static PrintWriter fout;
     public Lab8Task1() {

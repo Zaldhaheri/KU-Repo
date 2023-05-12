@@ -1,0 +1,19 @@
+Dear Zayed
+This is the monthly statement of your checking account#1222
+You were payed an amount of 65.0 AED as an interest on your account. So, 
+your current balance is 1365.0 AED. 
+For any questions or inquires please make sure to contact us at
+bank@ku.ac.ae
+Regards
+
+This is a check for: Rashid with an amount of 500.0 from account#0470
+
+Dear Abdulrahman
+This is the monthly statement of your checking account#0470
+You have currently 1500.0 AED available in your account
+The total number of generated checks is 5 and a charge of 20.0 AED was
+withdrawn of your account for writing 2.0 extra checks more than your limit
+For any questions or inquires please make sure to contact us at
+bank@ku.ac.ae
+Regards
+
