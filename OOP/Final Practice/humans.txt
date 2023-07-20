@@ -1,0 +1,4 @@
+Khaled Rashed 39
+Jamal Ahmed 18 EECS 76 87 76 76 93
+Amna Ahmed 40 PT 8 9 10 11 11 10.0
+Ahmed Sultan 41 FT 8 9 8 11 10 8.0
