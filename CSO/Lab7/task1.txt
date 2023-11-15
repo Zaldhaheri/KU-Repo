@@ -1,0 +1,9 @@
+sum_element: 
+    leaq 0(,%rdi,8), %rdx    //rdx = 8 * rdi
+    subq %rdi, %rdx          //rdx = rdx - rdi
+    addq %rsi, %rdx          //rdx = rdx + rsi
+    leaq (%rsi,%rsi,4), %rax //rax = rsi + 4 * rsi
+    addq %rax, %rdi          //rdi = rdi + rax
+    movq Q(,%rdi,8), %rax    //rax = Q[rdi][8]
+    addq P(,%rdx,8), %rax    //rax = rax + P[rdx][8]
+    ret                      //return rax

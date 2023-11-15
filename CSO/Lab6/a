@@ -1,0 +1,24 @@
+binarycount:
+    pushq   %rbp               // Save the current value of %rbp
+    movq    %rsp, %rbp         // Set up a new stack frame
+    movl    %edi, -20(%rbp)    // Store the value of the first parameter (x) at -20(%rbp)
+    movl    $0, -8(%rbp)       // Initialize a counter (count) to 0 and store it at -8(%rbp)
+    movl    $0, -4(%rbp)       // Initialize an index (i) for bit positions to 0 and store it at -4(%rbp)
+    jmp     .L2                 // Jump to the start of the loop (.L2)
+.L4:
+    movl    -4(%rbp), %eax      // Load the index (i) into %eax
+    movl    -20(%rbp), %edx     // Load the value of x into %edx
+    movl    %eax, %ecx          // Copy the index (i) to %ecx
+    salq    %cl, %rdx           // Shift the value in %rdx left by %cl positions (1 << i)
+    andl    %edx, %eax          // Bitwise AND the result with x
+    testl   %eax, %eax          // Test the result
+    je      .L3                 // Jump to .L3 if the result is 0 (bit is not set)
+    addl    $1, -8(%rbp)        // Increment the count at -8(%rbp)
+.L3:
+    addl    $1, -4(%rbp)        // Increment the index (i) at -4(%rbp)
+.L2:
+    cmpl    $31, -4(%rbp)       // Compare the index (i) to 31 (assuming 32-bit integer)
+    jl      .L4                 // If less than, jump back to .L4 (loop)
+    movl    -8(%rbp), %eax      // Load the final count of set bits into %eax
+    popq    %rbp                // Restore the previous value of %rbp
+    ret                         // Return from the function
