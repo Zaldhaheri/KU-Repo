@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/zayed/Desktop/KU-Repo/CSO/Lab7",
-      "program": "c:/Users/zayed/Desktop/KU-Repo/CSO/Lab7/build/Debug/outDebug",
+      "cwd": "c:/Users/zayed/Desktop/KU-Repo/OS-Lab/Lab6",
+      "program": "c:/Users/zayed/Desktop/KU-Repo/OS-Lab/Lab6/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
